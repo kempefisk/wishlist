@@ -9,7 +9,7 @@ function signIn() {
 	  user = result.user;
 	  console.log(user.displayName);
 	  console.log("test1");
-	  testfunction();
+	  whenLogin();
 	  $("#loginbox").hide();
 	  
 	  // Input Welcome text
@@ -28,7 +28,7 @@ function signIn() {
 };
 
 
-function testfunction() {
+function whenLogin() {
 	console.log("test1231232");
-	$("#loginbox").hide();
+	$("#welcomeText").html("Hej " + user.displayName);
 };
