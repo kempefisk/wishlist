@@ -25,6 +25,6 @@ function signIn() {
 
 	function showWelcome() {
 	 $("#welcomeText").html("Hej,  " + user.displayName);
-	 console.log("function fireing")
+	 console.log("function fireing");
 	};
 
