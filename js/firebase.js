@@ -29,5 +29,5 @@ function signIn() {
 
 function testfunction() {
 	console.log("test1231232");
-	$("#hejhej").html("Hej123,  " + user.displayName);
+	$("#hejhej").hide();
 };
