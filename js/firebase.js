@@ -24,7 +24,7 @@ function signIn() {
 };
 
 	function showWelcome() {
-	 $("#welcomeText").html("Hej,  " + user.displayName);
+	 $("#hejhej").html("Hej,  " + user.displayName);
 	 console.log("function fireing");
 	};
 
