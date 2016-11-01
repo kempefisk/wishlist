@@ -8,8 +8,11 @@ function signIn() {
 	  // The signed-in user info.
 	  user = result.user;
 	  console.log(user.displayName);
+	  console.log("test1");
+	  testfunction();
+	  
 	  // Input Welcome text
-	  showWelcome();
+	 
 	}).catch(function(error) {
 	  // Handle Errors here.
 	  var errorCode = error.code;
@@ -28,3 +31,6 @@ function signIn() {
 	 console.log("function fireing");
 	};
 
+function testfunction() {
+	console.log("test2");
+}
