@@ -23,7 +23,8 @@ function signIn() {
 	
 };
 
-function WhenLogin() {
+	function WhenLogin(){
 	 $("#welcomeText").html("Hej,  " + user.displayName);
-};
+	 console.log("function fireing")
+	};
 
