@@ -8,7 +8,7 @@ function signIn() {
 	  // The signed-in user info.
 	  user = result.user;
 	  // Input Welcome text
-	  WhenLogin()
+	  WhenLogin();
 	}).catch(function(error) {
 	  // Handle Errors here.
 	  var errorCode = error.code;
