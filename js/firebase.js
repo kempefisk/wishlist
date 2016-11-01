@@ -1,5 +1,5 @@
 var provider = new firebase.auth.GoogleAuthProvider();
-var user
+var user;
 
 function signIn() {
 	firebase.auth().signInWithPopup(provider).then(function(result) {
@@ -8,8 +8,7 @@ function signIn() {
 	  // The signed-in user info.
 	  user = result.user;
 	  // Input Welcome text
-	  $("#welcomeText").html("Hej " + user.DisplayName);
-	  
+	  WhenLogin()
 	}).catch(function(error) {
 	  // Handle Errors here.
 	  var errorCode = error.code;
@@ -21,5 +20,11 @@ function signIn() {
 	  // ...
 	});
 	
-}
+};
+
+function WhenLogin() {
+	 $("#welcomeText").html("Hej,  " + user.DisplayName);
+	  
+	
+};
 
