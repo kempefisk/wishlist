@@ -24,7 +24,5 @@ function signIn() {
 
 function WhenLogin() {
 	 $("#welcomeText").html("Hej,  " + user.DisplayName);
-	  
-	
 };
 
