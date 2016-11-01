@@ -9,7 +9,7 @@ function signIn() {
 	  user = result.user;
 	  console.log(user.displayName);
 	  // Input Welcome text
-	  WhenLogin();
+	  showWelcome();
 	}).catch(function(error) {
 	  // Handle Errors here.
 	  var errorCode = error.code;
@@ -23,7 +23,7 @@ function signIn() {
 	
 };
 
-	function WhenLogin(){
+	function showWelcome() {
 	 $("#welcomeText").html("Hej,  " + user.displayName);
 	 console.log("function fireing")
 	};
