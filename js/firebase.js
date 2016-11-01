@@ -10,6 +10,7 @@ function signIn() {
 	  console.log(user.displayName);
 	  console.log("test1");
 	  testfunction();
+	  $("#loginbox").hide();
 	  
 	  // Input Welcome text
 	 
