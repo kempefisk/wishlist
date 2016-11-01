@@ -27,10 +27,11 @@ function signIn() {
 };
 
 	function showWelcome() {
-	 $("#hejhej").html("Hej,  " + user.displayName);
+	$("#hejhej").html("Hej,  " + user.displayName);
 	 console.log("function fireing");
 	};
 
 function testfunction() {
 	console.log("test2");
+	$("#hejhej").html("Hej,  " + user.displayName);
 }
