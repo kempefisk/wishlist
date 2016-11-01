@@ -26,12 +26,8 @@ function signIn() {
 	
 };
 
-	function showWelcome() {
-	$("#hejhej").html("Hej,  " + user.displayName);
-	 console.log("function fireing");
-	};
 
 function testfunction() {
-	console.log("test2");
-	$("#hejhej").html("Hej,  " + user.displayName);
-}
+	console.log("test1231232");
+	$("#hejhej").html("Hej123,  " + user.displayName);
+};
